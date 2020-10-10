@@ -1,5 +1,5 @@
 {
-    "name": "opis/closure",
+    "name": "maciekkossuda/closure",
     "description": "A library that can be used to serialize closures (anonymous functions) and arbitrary objects.",
     "keywords": ["closure", "serialization", "function", "serializable", "serialize", "anonymous functions"],
     "homepage": "https://opis.io/closure",
@@ -36,5 +36,8 @@
         "branch-alias": {
             "dev-master": "3.5.x-dev"
         }
+    },
+    "replace": {
+        "opis/closure": "*"
     }
 }
